@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="logo">
+      <img src="/images/logo.svg" alt="logo" />
+    </div>
+
+    <div class="container">
+      <div class="text-box">
+        <div class="input-icons">
+          <img class="icon" src="/images/icon-dollar.svg" alt="dollar" />
+          <label for="bill">Bill</label>
+          <input id="bill" type="text" class="bill-input" placeholder="0" />
+        </div>
+
+        <p class="bill-text">Select Tip %</p>
+        <div class="bill-grid">
+          <div class="bill-group"><p class="bill-number">5%</p></div>
+          <div class="bill-group"><p class="bill-number">10%</p></div>
+          <div class="bill-group"><p class="bill-number">15%</p></div>
+          <div class="bill-group"><p class="bill-number">25%</p></div>
+          <div class="bill-group"><p class="bill-number">50%</p></div>
+          <div class="bill-group"><p class="bill-number">Custom</p></div>
+        </div>
+
+        <div class="input-icons">
+          <img class="icon" src="/images/icon-person.svg" alt="" />
+          <label for="bill">Numbers of people</label>
+          <input type="text" class="bill-input" placeholder="0" />
+        </div>
+      </div>
+      <div class="money-box">
+        <div class="amount">
+          <div class="1">
+            <p class="amount-text">Tip amount</p>
+            <p class="amount-person">/ person</p>
+          </div>
+          <div class="price-div"><p class="price">$0.00</p></div>
+        </div>
+        <div class="total">
+          <div class="3">
+            <p class="total-text">Total</p>
+            <p class="total-person">/ person</p>
+          </div>
+          <div class="price-div"><p class="price">$0.00</p></div>
+        </div>
+        <a href="#" class="reset-link">Reset</a>
+      </div>
+    </div>
+  </body>
+</html>
